@@ -1,4 +1,4 @@
-# Storytelling with Dialogue: A *Critical Role* Dungeons and Dragons Dataset
+# [ACL 2020] Storytelling with Dialogue: A *Critical Role* Dungeons and Dragons Dataset
 
 
 # Overview
