@@ -22,9 +22,6 @@ class NeedlemanWunschResult:
     sequence_2: List[T]
     scores: List[float]
 
-    def __iter__(self):
-        zip(self.sequence_1, self.sequence_2, self.scores)
-
 
 def get_scores_for_entire_sequence(obj_1: T, obj_sequence: List[T], scoring_function: Callable[[T, T], float]) -> List[float]:
     return [scoring_function(obj_1, obj_2) for obj_2 in obj_sequence]
@@ -35,7 +32,7 @@ class NeedlemanWunschAligner:
         pass
 
     @staticmethod
-    def build_scoring_matrx(sequence_1: List[object], sequence_2: List[object], scoring_function: Callable[[T, T], float]) -> np.ndarray:
+    def build_scoring_matrx(sequence_1: List[T], sequence_2: List[T], scoring_function: Callable[[T, T], float]) -> np.ndarray:
         """
         Build a score matrix using the two sequences as input, with each element in the matrix being filled by the scoring
         function specified by scoring_function.
