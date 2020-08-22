@@ -1,0 +1,410 @@
+[
+    {
+        "ID": 0,
+        "CHUNK": "Matthew Mercer introduces himself and the concept of Critical Role. The introduction videos for Grog, Keyleth, Percy, Scanlan, Tiberius, Vax'ildan, and Vex'ahlia are shown."
+    },
+    {
+        "ID": 1,
+        "CHUNK": "Matt explains how their eight-player game has been switched over from Pathfinder to Dungeons & Dragons 5th Edition. One of the players, Ashley Johnson, who plays the gnome cleric Pike Trickfoot, is not present because she is in London at the BAFTA awards."
+    },
+    {
+        "ID": 2,
+        "CHUNK": "Donations will be accepted in the following weeks to support the crew. Half of the donations will go to the charity 826LA."
+    },
+    {
+        "ID": 3,
+        "CHUNK": "Marisha Ray explains how 826LA helps children learn creativity, storytelling, and art. She also talks about the 826LA storefront, where all proceeds go to the charity."
+    },
+    {
+        "ID": 4,
+        "CHUNK": "The cast introduce themselves and their roles:\n Matthew Mercer is the Dungeon Master. Travis Willingham plays Grog, the goliath barbarian."
+    },
+    {
+        "ID": 5,
+        "CHUNK": "Laura Bailey plays Vex'ahlia, the half-elven ranger who has a pet bear named Trinket. Liam O'Brien plays Vax'ildan, the half-elven rogue and twin of Vex'ahlia."
+    },
+    {
+        "ID": 6,
+        "CHUNK": "Taliesin Jaffe plays Percy, the human gunslinger. Marisha Ray plays Keyleth, the half-elven druid."
+    },
+    {
+        "ID": 7,
+        "CHUNK": "Orion Acaba plays Tiberius, the dragonborn sorceror. Sam Riegel plays Scanlan Shorthalt, the gnome bard."
+    },
+    {
+        "ID": 8,
+        "CHUNK": " \"The party had completed a large venture in saving the nearby city of Emon, one of the capitals of this human civilization of Tal'Dorei."
+    },
+    {
+        "ID": 9,
+        "CHUNK": "They managed to halt a demonic insurrection within the throne and as such were greeted to a heroes' celebration and had a keep built in their honor. \"Over the six month period of the keep being constructed, they went on their own ways and then returned to see its final creation."
+    },
+    {
+        "ID": 10,
+        "CHUNK": "However, they did not have a chance to really enjoy it immediately, as one of their good friends and allies, Arcanist Allura Vysoren of the Tal'Dorei Council, came to them requesting their aid, saying that a long-time friend of hers, Lady Kima of Vord \u2014who is a very well-known and very well-respected halfing paladin of Bahamut, the platinum dragon\u2014had been gone on a pilgrimage for a while, essentially a vision quest as part of her own development as a paladin. \"As part of this, she let the information go to Allura that a dark vision had come to her, saying that some sort of evil root is beginning to breed beneath Kraghammer and the mountains within."
+    },
+    {
+        "ID": 11,
+        "CHUNK": "Kraghammer of which is the nearby dwarven civilization that [the party] had previously not been allowed entry to, because the dwarves weren't fans of anyone without any political means of entering. However, [Allura] managed to acquire the necessary documentation, offered [the party] a very substantial reward should [they] find the whereabouts of Lady Kima of Vord, and hopefully bring her back safely."
+    },
+    {
+        "ID": 12,
+        "CHUNK": "\"[The party] left. On the pathway to the dwarven citadel of Kraghammer, [they] were ambushed by a group of roaming barbarian goliaths, of which partway through the battle Grog managed to recognize one of them as a previous ally\u2014and no-longer-ally at this time."
+    },
+    {
+        "ID": 13,
+        "CHUNK": "The barbarian, for his first and only time so far, managed to avert battle through a social encounter and rolled pretty damn well on a persuasion check. [...] [ He] managed to not turn it into complete bloodshed and [the party] continued on [their] way to Kraghammer, presented [their] paperwork, were given entry into the city, and that is where we begin this adventure.\""
+    },
+    {
+        "ID": 14,
+        "CHUNK": "Vox Machina have just entered the dwarven city of Kraghammer for the first time on their quest to find Lady Kima of Vord. They know that she was headed for the mithral mine owned by Nostoc Greyspine, but they decide to find somewhere to sleep first."
+    },
+    {
+        "ID": 15,
+        "CHUNK": "The party notices a group of armored dwarves awkwardly watching them. Tiberius \u2014the only one besides Pike who can speak Dwarvish\u2014asks them where they can find suitable lodgings."
+    },
+    {
+        "ID": 16,
+        "CHUNK": "One of the dwarves, Thompson, tells them in Common to go to \"The Pig Pits\". Vex'ahlia guesses that the Pig Pits are actual pits for pigs."
+    },
+    {
+        "ID": 17,
+        "CHUNK": "Thompson weakly denies this. Scanlan asks for directions to the Pig Pits and the dwarf points to a distant slop of mud where livestock are kept."
+    },
+    {
+        "ID": 18,
+        "CHUNK": "Vex'ahlia gives a piece of gold to Thompson to show them to actual lodgings. The dwarf gladly accepts the bribe and directs the group to the Iron Hearth Tavern, telling them to listen for laughter and people who are very, very drunk."
+    },
+    {
+        "ID": 19,
+        "CHUNK": "Vex gives him a thank you and a wink, and the party heads to the tavern. Music, cheers, and arguments can be heard flowing from the tavern from several buildings away."
+    },
+    {
+        "ID": 20,
+        "CHUNK": "Vox Machina enters, although Grog has to duck slightly to avoid hitting his head. Several nearby dwarves give strange looks to the very non-dwarven group that just entered."
+    },
+    {
+        "ID": 21,
+        "CHUNK": "Grog is delighted by the offer of a free drink. To Vex's horror, Vax'ildan offers everyone in the tavern a round of drinks."
+    },
+    {
+        "ID": 22,
+        "CHUNK": "The tavern owner, Adra, appreciates his generosity. Scanlan inquires about some rooms for the night."
+    },
+    {
+        "ID": 23,
+        "CHUNK": "After they settle their accounts, Adra warns them not to do any thing \"stupid\" near the Carvers. Tiberius asks her to elaborate saying, \"I do things like that all the time.\""
+    },
+    {
+        "ID": 24,
+        "CHUNK": "The group ask Adra about some local knowledge and they learn from a tavern patron of \"things,\" goblins and the like, pouring out of the caves near the Greyspine Quarry. Grog introduces himself to Balgus, the reigning tavern fighter champion."
+    },
+    {
+        "ID": 25,
+        "CHUNK": "Keyleth and Vex try flirting with him. Keyleth tries to stroke his muscled arm and gets her hand slapped away for her awkwardness. \""
+    },
+    {
+        "ID": 26,
+        "CHUNK": "No touching the drunk dwarf.\" Vex has better luck stroking his ego and he tells her what he thinks of the Greyspines, they're \"ass minds\"."
+    },
+    {
+        "ID": 27,
+        "CHUNK": "Tiberius interrupts and with Percy's help manages to learn that they should take a gift when meeting Nostoc Greyspine and he offers them a barrel of a rare vintage of Thistle Branch Dark Blood Wine from his own brewery for 500 gold. Vex haggles him down to one cup of congealed dragon blood."
+    },
+    {
+        "ID": 28,
+        "CHUNK": "Vox Machina split up to explore the citadel. Pike heads to bed."
+    },
+    {
+        "ID": 29,
+        "CHUNK": "Percy and Keyleth spend the night making out comment cards for Belan, the barma\u00eetre. Scanlan and Grog find lady companionship for the night at The Stone's Pillow."
+    },
+    {
+        "ID": 30,
+        "CHUNK": "Grog gets his money's worth with an aggressive elf and Scanlan gets manhandled by a dwarf. Vax'ildan, Vex'ahlia, and Trinket do some reconnaissance on Greyspine Manor."
+    },
+    {
+        "ID": 31,
+        "CHUNK": "They catch the attention of some Carvers and pretend to be sightseeing. The guards become scared of Trinket so Vex sends him mopishly back to the tavern."
+    },
+    {
+        "ID": 32,
+        "CHUNK": "A guard escorts them to the Manor. The guard doesn't seem to have a great opinion of the Greyspines."
+    },
+    {
+        "ID": 33,
+        "CHUNK": "On their way back to the tavern, Vax and Vex try to ditch the guards escorting them. Vax vanishes but Vex is caught and flirts to divert attention from her brother."
+    },
+    {
+        "ID": 34,
+        "CHUNK": "Tiberius searches for House Thunderbrand, a family specializing in the arcana arts. Not used to seeing dragonborn, the dwarves he asks for directions send him meandering around Kraghammer for two hours."
+    },
+    {
+        "ID": 35,
+        "CHUNK": "Finally he reaches the house. Tiberius tries to enter the grounds but sets off a dwarven rune that shoots a bolt of bluish energy at him."
+    },
+    {
+        "ID": 36,
+        "CHUNK": "Tiberius shouts out but no one answers. He tries to knock on the door with his Mage Hand but it fizzles as it crosses the rune."
+    },
+    {
+        "ID": 37,
+        "CHUNK": "He casts Glacial Blast towards the door but it stops at the barrier created by the runes and melts. Tiberius gives up on getting inside just as four Carvers surround him."
+    },
+    {
+        "ID": 38,
+        "CHUNK": "A frustrated Tiberius yells at them, intimidating them until they step back. Tiberius apologizes and gets off with a warning and a threat."
+    },
+    {
+        "ID": 39,
+        "CHUNK": "Tiberius obliviously saunters off. Meanwhile, Vax sneaks back to Greyspine Manor and watches for a while and then heads back to the tavern."
+    },
+    {
+        "ID": 40,
+        "CHUNK": " Once they've all gathered back at the tavern, Vox Machina discuss their nightly adventures."
+    },
+    {
+        "ID": 41,
+        "CHUNK": "Scanlan and Vex admit that they obtained hickies. Vax suggests they use diplomacy to approach Nostoc Greyspine, when there is a knock at their door."
+    },
+    {
+        "ID": 42,
+        "CHUNK": "Adra is at the door, nervous, as Trinket is being prodded into the fighting ring in the tavern by some dwarves. Vex worriedly rushes down to the tavern's main room and tries to disengage Trinket."
+    },
+    {
+        "ID": 43,
+        "CHUNK": "Balgus is excitedly anticipating a fight with a bear, as the others in Vox Machina follow Vex down. Vex runs into the ring and declares, \"I'll take on this bear,\" but Balgus is not giving up this chance."
+    },
+    {
+        "ID": 44,
+        "CHUNK": "Keyleth casts fog over the ring and also runs in. She casts Polymorph on Trinket, turning him into a rat, throws him to Scanlan, and then shifts into a bear herself."
+    },
+    {
+        "ID": 45,
+        "CHUNK": "Grog says \"I got my money on Ballsack.\" Scanlan is offended that Grog would bet on the enemy."
+    },
+    {
+        "ID": 46,
+        "CHUNK": "Vax somersaults over a random dwarf, pulls out his dagger, turns it in his hand and whacks Balgus in the back of the head to knock him out. But Balgus barely feels it and reaches up to grab Vax's wrist."
+    },
+    {
+        "ID": 47,
+        "CHUNK": "Vax slips out of his grip. Balgus is invigorated and ready for a fight."
+    },
+    {
+        "ID": 48,
+        "CHUNK": "Adra is heard trying to stop the chaos. Vex tells Bear-Keyleth to do some tricks, start clapping and dancing around."
+    },
+    {
+        "ID": 49,
+        "CHUNK": "Bear-Keyleth complies. Vex starts clapping too and invites everyone to see \"the Amazing Trinket\", like a circus ringmaster."
+    },
+    {
+        "ID": 50,
+        "CHUNK": "Scanlan plays his shawm and sings, \"Oh, look over there, it's a bear.\" Tiberius casts Prestidigitation fireworks."
+    },
+    {
+        "ID": 51,
+        "CHUNK": "Bear-Keyleth does a somersault causing Balgus to double over with laughter. The jovial air is restored to the tavern and Vex picks up a cup to collect tips."
+    },
+    {
+        "ID": 52,
+        "CHUNK": "Balgus and Bear-Keyleth share a moment, and then he seems to get a melancholy yearning for the outside, even shedding a tear. Vax offers him a drink and Balgus leaves the ring."
+    },
+    {
+        "ID": 53,
+        "CHUNK": "Vax offers a toast to the tavern and Adra thanks him for calming the mood. The character intro videos for Grog Strongjaw, Keyleth, Percival de Rolo, Scanlan Shorthalt, Tiberius Stormwind, Vax'ildan, and Vex'ahlia are shown."
+    },
+    {
+        "ID": 54,
+        "CHUNK": " The next morning Percy insists on everyone eating brunch and Tiberius insists they go back to House Thunderbrand."
+    },
+    {
+        "ID": 55,
+        "CHUNK": "Everyone eats a delicious Dwarven brunch, which is very alcoholic, and then head to Greyspine Manor. Tiberius uses Alter Self to turn into a dwarf."
+    },
+    {
+        "ID": 56,
+        "CHUNK": "The same four guards that Vax and Vex met the other night are there, except Thompson, Vex's friend, who was given the day off. The guards are impressed with the gift Vox Machina is preparing to give to the Greyspines and Vex promises to save a bottle for each of them when they open the barrel and the guards let them continue."
+    },
+    {
+        "ID": 57,
+        "CHUNK": "Percy pulls a chain outside the door that causes a sound like a hammer hitting brass to echo and resound throughout the building to announce their presence. Keyleth, with childlike glee, also pulls it."
+    },
+    {
+        "ID": 58,
+        "CHUNK": "Scanlan sings a jaunting welcoming song, \"Hello, we're here to pay you calling. Hello, hello, I don't know what rhymes with calling.\""
+    },
+    {
+        "ID": 59,
+        "CHUNK": "The servant who answers the door, Margrim, informs them that Nostoc Greyspine is working at the Greyspine Quarry and directs them there. Meanwhile, Scanlan cast Invisibility on himself and sneaks into the house."
+    },
+    {
+        "ID": 60,
+        "CHUNK": "He nervously lets out a fart, sneaks around, and then leaves. Back with the group, Scanlan describes his adventure as exciting but ultimately pointless."
+    },
+    {
+        "ID": 61,
+        "CHUNK": "Vax reminds everyone that these dwarves are not their enemies. Vox Machina make their way to the mines."
+    },
+    {
+        "ID": 62,
+        "CHUNK": "Keyleth Druidcrafts flowers and ivy vines over the wine cask. They are granted an audience with Nostoc, though he won't hear them until his first drink of the wine they brought."
+    },
+    {
+        "ID": 63,
+        "CHUNK": "Percy inquires of Lady Kima. He informs the party that Lady Kima had gone into the mines earlier."
+    },
+    {
+        "ID": 64,
+        "CHUNK": "He gives them permission to enter the mines and retrieve her. Keyleth suggests that there is trouble in the mines that they could help with and he denies it saying they have everything under control."
+    },
+    {
+        "ID": 65,
+        "CHUNK": "A loud bell rings out, and Nostoc shoos them out of his office claiming their business is done. Vax tries to steal some of the wine from the cask; when he's caught he pretends he had intended to refill Nostoc's flask."
+    },
+    {
+        "ID": 66,
+        "CHUNK": "The guards lead them outside as more bells ring and they hear voices shouting in the quarry below. Vex asks a guard what the meaning of the bell is and he says that \"something\" is coming out of the quarry."
+    },
+    {
+        "ID": 67,
+        "CHUNK": "Vox Machina head down to the quarry as bloodied dwarves begin to come out of one of the tunnels, followed by ten goblins. A goblin attacks one of the dwarves; Percy, Vex and Vax attack the goblins."
+    },
+    {
+        "ID": 68,
+        "CHUNK": "Tiberius casts a Fireball at the group of goblins, killing them and some of the dwarves. Vox Machina charge towards the goblins and Keyleth casts Entangle on them."
+    },
+    {
+        "ID": 69,
+        "CHUNK": "Two larger, ogre-like creatures come storming out. Scanlan, uncharacteristically serious, says \"I don't like goblins."
+    },
+    {
+        "ID": 70,
+        "CHUNK": "They will all die. Don't spare any of them.\""
+    },
+    {
+        "ID": 71,
+        "CHUNK": "Grog agrees. Percy brings out Bad News and fires."
+    },
+    {
+        "ID": 72,
+        "CHUNK": "There is a large blast, a flash of blue energy and sparks shoot out of the back of the weapon. The force actually lifts Percy off the ground for a second."
+    },
+    {
+        "ID": 73,
+        "CHUNK": "A white hot bullet streaks through the air and plunges into the side of the ogre's shoulder with a smattering of blood. The ogre growls and slams its club into the ground."
+    },
+    {
+        "ID": 74,
+        "CHUNK": "Tiberius casts Fireball, arcane energy flows within his palm and he throws the beam out, which slams into the center of the enemies and explodes, hitting five goblins and two ogres. The goblins are turned into black nothing."
+    },
+    {
+        "ID": 75,
+        "CHUNK": "Then Tiberius uses Telekinesis to slam one ogre into the other and they are both knocked prone. Tiberius turns to Grog and yells, \"They're all yours, buddy.\""
+    },
+    {
+        "ID": 76,
+        "CHUNK": "Vex casts Hunter's Mark on one of the ogres and shoots a Lightning Arrow. As she pulls it back, energy courses through her fingers, striking though the arrow with crackling energy."
+    },
+    {
+        "ID": 77,
+        "CHUNK": "She lets it loose. The ogre, beaten by the fireball, grabs its club and gets on one leg."
+    },
+    {
+        "ID": 78,
+        "CHUNK": "As it does an arrow slams into its chest, the charge pulsing through its torso. It screams out, falling onto its chest, smoke rising from its form, dead."
+    },
+    {
+        "ID": 79,
+        "CHUNK": "Grog notices the fear in the goblins eyes. The goblins aren't charging to attack, they scared and running from something. \""
+    },
+    {
+        "ID": 80,
+        "CHUNK": "I would like to rage. And I would like to give 'em the cleanest shave possible with my axe.\""
+    },
+    {
+        "ID": 81,
+        "CHUNK": "As he rushes up, he brings his axe into the first goblin, bisecting it cleanly, head rolling to the side. Inertia brings his axe around to a second goblin, embedding in its face."
+    },
+    {
+        "ID": 82,
+        "CHUNK": "The surviving ogre rushes forward. It has a similar look in its eyes as the goblins, that of desperation."
+    },
+    {
+        "ID": 83,
+        "CHUNK": "Vax rushes up to the ogre, both blades jam right into its rib cage and it howls out in pain. Vax twists the blades and carves out a section of its abdomen."
+    },
+    {
+        "ID": 84,
+        "CHUNK": "Vax kicks it to the ground. It falls lifeless."
+    },
+    {
+        "ID": 85,
+        "CHUNK": " Keyleth casts Wall of Stone sealing off the entrance to the tunnel."
+    },
+    {
+        "ID": 86,
+        "CHUNK": "She turns to the dwarf guards watching and shouts, \"What's coming?\" The guards don't have a satisfactory answer but they mention \"abomination\" and \"something's making things down there.\""
+    },
+    {
+        "ID": 87,
+        "CHUNK": "A banging can be heard against the stone and it begins to crack. Vax and Vex flank the stone wall."
+    },
+    {
+        "ID": 88,
+        "CHUNK": "Another bang is heard and a chunk of stone falls off the wall. Scanlan inspires Vex, Vax and Grog, \"I think you're really handsome and nice."
+    },
+    {
+        "ID": 89,
+        "CHUNK": "You're going to have inspiration dice.\" The thing behind the stone breaks through, scattering stone across the ground."
+    },
+    {
+        "ID": 90,
+        "CHUNK": "A bulbous, oversized, naga-like creature with six different-colored naga heads stitched to its body emerges from the tunnel. Tiberius fires one beam of Scorching Ray."
+    },
+    {
+        "ID": 91,
+        "CHUNK": "It slams into the side of one of the naga heads. Bringing his hand back for the second beam, Tiberius' hand flickers with arcane instability."
+    },
+    {
+        "ID": 92,
+        "CHUNK": "Shaking, he releases the surge of scorching energy and it blasts into the side of the naga. Vex shoots the naga twice Legolas-style using her Blazing Bowstring, one arrow bursting into flames as it flies through the air."
+    },
+    {
+        "ID": 93,
+        "CHUNK": "One of the heads rears back from the pain. Spit flying from his mouth, Grog throws his axe at the naga embedding in its chest before he pulls it back."
+    },
+    {
+        "ID": 94,
+        "CHUNK": "The naga moves in a burst of lightning energy attacking Keyleth and Tiberius. Keyleth feels a burning poison pulse into her bloodstream as her body doubles over in pain."
+    },
+    {
+        "ID": 95,
+        "CHUNK": "Tiberius manages to physically resist the poison from the naga's fangs. Tiberius blows fire out of his nostrils."
+    },
+    {
+        "ID": 96,
+        "CHUNK": "Vax sneakily throws his daggers, one hits the naga's main head through both eyes and it begins to thrash. Its stitches are beginning to come apart and an ichorish liquid oozes out around the sutures."
+    },
+    {
+        "ID": 97,
+        "CHUNK": "Keyleth slams her staff into the ground, casting Thunderwave. The naga and Percy slide back."
+    },
+    {
+        "ID": 98,
+        "CHUNK": "Keyleth turns into an eagle and flies away. Scanlan inspires himself with, \"It would help me to acquire some dice to inspire,\" and casts Lightning Bolt at the naga."
+    },
+    {
+        "ID": 99,
+        "CHUNK": "The bolt starts at its tail, works its way up its spine, slowly and painfully torturing it as it courses up its evil body with an \"S\" burned into its torso. One of the dwarf guards congratulates Scanlan."
+    },
+    {
+        "ID": 100,
+        "CHUNK": "Scanlan responds, \"Just promise me that you'll tell Pike about this. Because it was really cool.\""
+    },
+    {
+        "ID": 101,
+        "CHUNK": ""
+    }
+]

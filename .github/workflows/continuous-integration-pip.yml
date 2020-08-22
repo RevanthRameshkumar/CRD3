@@ -7,7 +7,7 @@ jobs:
     strategy:
       matrix:
         os: ['ubuntu-latest', 'macos-latest', 'windows-latest']
-        python-version: [3.5, 3.6, 3.7, 3.8]
+        python-version: [3.7, 3.8]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -31,9 +31,11 @@ jobs:
           # stop the build if there are Python syntax errors or undefined names
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
           # all Python files should follow PEP8 (except some notebooks, see setup.cfg)
-          flake8 src tests
+          flake8 src tests --max-line-length=120
           # exit-zero treats all errors as warnings.  The GitHub editor is 127 chars wide
           flake8 . --count --exit-zero --max-complexity=10 --statistics
+      - name: Install the src packages
+        run: pip install -e .
       - name: Test with pytest
         run: pytest --cov=./ --cov-report=xml
       - name: Upload coverage
