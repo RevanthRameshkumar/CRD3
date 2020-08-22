@@ -10,6 +10,11 @@ from nltk.tokenize import TweetTokenizer
 
 def nltk_stopword_tokenize(text, n, skip_unigrams=False, skip_n_grams=None):
     # text_unigrams = nltk.word_tokenize(text)
+    try:
+        nltk.data.find('corpora/wordnet')
+    except LookupError:
+        nltk.download('wordnet')
+
     lemmatizer = WordNetLemmatizer()
     tknzr = TweetTokenizer()
     if n == 1:
