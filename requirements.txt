@@ -1,3 +1,4 @@
 nltk==3.5
 numpy~=1.18.2
 dataclasses>=0.6
+pathlib
