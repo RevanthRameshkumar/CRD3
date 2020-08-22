@@ -4,7 +4,7 @@ import numpy as np
 from multiprocessing import Pool
 import os
 from functools import partial
-from utils.temp_utils import nltk_stopword_tokenize, calculate_scaled_f1_turn_distribution
+from crd3.utils.temp_utils import nltk_stopword_tokenize, calculate_scaled_f1_turn_distribution
 
 
 T = TypeVar('T')

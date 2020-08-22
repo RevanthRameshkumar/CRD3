@@ -3,8 +3,8 @@ import json
 import numpy as np
 from numpy.testing import assert_array_equal
 
-from summarization.needleman_wunsch import NeedlemanWunschAligner, TextChunk
-from utils.temp_utils import calculate_scaled_f1_turn_distribution, nltk_stopword_tokenize
+from crd3.summarization.needleman_wunsch import NeedlemanWunschAligner, TextChunk
+from crd3.utils.temp_utils import calculate_scaled_f1_turn_distribution, nltk_stopword_tokenize
 
 
 def test_build_scoring_matrx():
