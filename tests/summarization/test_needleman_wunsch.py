@@ -28,6 +28,7 @@ def test_build_scoring_matrix():
     sample = np.genfromtxt(sample_score_matrix_path, delimiter=",")
     assert_array_equal(s, sample)
 
+
 def test_needleman_wunsch_algorithm():
     sample_score_matrix_path = os.path.join(os.path.dirname(FILE_PATH), 'sample_score_matrix.csv')
     sample_nw_output_path = os.path.join(os.path.dirname(FILE_PATH), 'sample_nw_algorithm_output.json')
