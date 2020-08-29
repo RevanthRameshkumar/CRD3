@@ -115,32 +115,28 @@ class NeedlemanWunschAligner:
 
             direction = np.argmax([diagonal_score, up_score, left_score])
             if direction == 0:
-                result.sequence_1.append(sequence_1[i-1])
-                result.sequence_2.append(sequence_2[j-1])
-                result.scores.append(diagonal_score)
+                result.sequence_1.insert(0, sequence_1[i-1])
+                result.sequence_2.insert(0, sequence_2[j-1])
+                result.scores.insert(0, diagonal_score)
                 i -= 1
                 j -= 1
             elif direction == 1:
-                result.sequence_1.append(sequence_1[i - 1])
-                result.sequence_2.append(result.GAP_SYMBOL)
-                result.scores.append(up_score)
+                result.sequence_1.insert(0, sequence_1[i - 1])
+                result.sequence_2.insert(0, result.GAP_SYMBOL)
+                result.scores.insert(0, up_score)
                 i -= 1
             elif direction == 2:
-                result.sequence_1.append(result.GAP_SYMBOL)
-                result.sequence_2.append(sequence_2[j - 1])
-                result.scores.append(left_score)
+                result.sequence_1.insert(0, result.GAP_SYMBOL)
+                result.sequence_2.insert(0, sequence_2[j - 1])
+                result.scores.insert(0, left_score)
                 j -= 1
 
         while j > 0:
             j -= 1
+            result.scores.insert(0, 0)
         while i > 0:
             i -= 1
-            result.scores.append(0)
-
-        # reverse all the sequences, because they are currently reversed due to tracing backwards
-        result.sequence_1 = result.sequence_1[::-1]
-        result.sequence_2 = result.sequence_2[::-1]
-        result.scores = result.scores[::-1]
+            result.scores.insert(0, 0)
         return result
 
     def _process_alignments(self,
