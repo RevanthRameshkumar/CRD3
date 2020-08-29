@@ -137,7 +137,7 @@ class NeedlemanWunschAligner:
         while i > 0:
             i -= 1
             result.scores.insert(0, 0)
-
+            
         return result
 
     def _process_alignments(self,
