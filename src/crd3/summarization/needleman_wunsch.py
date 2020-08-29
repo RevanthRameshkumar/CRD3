@@ -22,6 +22,8 @@ class NeedlemanWunschResult:
     sequence_2: List[T]
     scores: List[float]
 
+    GAP_SYMBOL: str = '-'
+
 
 def get_scores_for_entire_sequence(obj_1: T,
                                    obj_sequence: List[T],
@@ -34,9 +36,9 @@ class NeedlemanWunschAligner:
         pass
 
     @staticmethod
-    def build_scoring_matrx(sequence_1: List[T],
-                            sequence_2: List[T],
-                            scoring_function: Callable[[T, T], float]) -> np.ndarray:
+    def build_scoring_matrix(sequence_1: List[T],
+                             sequence_2: List[T],
+                             scoring_function: Callable[[T, T], float]) -> np.ndarray:
         """
         Build a score matrix using the two sequences as input, with each element in the matrix being filled by the
         scoring function specified by scoring_function.
@@ -60,8 +62,8 @@ class NeedlemanWunschAligner:
         score_matrix = np.transpose(np.array(scored_pairs))
         return score_matrix
 
-    def needleman_wunsch_algorithm(self,
-                                   sequence_1: List[str],
+    @staticmethod
+    def needleman_wunsch_algorithm(sequence_1: List[str],
                                    sequence_2: List[str],
                                    scoring_matrix: np.ndarray) -> NeedlemanWunschResult:
         """
@@ -75,7 +77,71 @@ class NeedlemanWunschAligner:
         :param sequence_2: the second sequence to align, corresponding to the x axis of the scoring matrix
         :param scoring_matrix: a 2D scoring matrix of floats (any shape)
         """
-        pass
+        m = len(sequence_1)
+        n = len(sequence_2)
+
+        assert scoring_matrix.shape[0] == m  # make sure the length of sequence 1 is the same as the # of rows
+        assert scoring_matrix.shape[1] == n  # and sequence 2 is same as # of columns
+
+        result = NeedlemanWunschResult(sequence_1=[], sequence_2=[], scores=[])
+
+        # initialize the alignment score matrix H, insert M and build the first row and column
+        score_matrix = np.zeros((m + 1, n + 1))
+        score_matrix[0, :] = np.arange(0, -1 * n - 1, -1)
+        score_matrix[:, 0] = np.arange(0, -1 * m - 1, -1)
+        score_matrix[1:, 1:] = scoring_matrix
+
+        # the gap penalties are 0, but in the future this can be a parameter to change
+        left_gap_penalty = 0
+        down_gap_penalty = 0
+        # fill out H with the cumulative scores, this is the forward filling step of the NW algorithm
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+                current_score = score_matrix[i][j]
+                match_score = score_matrix[i - 1][j - 1] + current_score
+                delete_score = score_matrix[i - 1][j] + down_gap_penalty + current_score
+                insert_score = score_matrix[i][j - 1] + left_gap_penalty + current_score
+                score_matrix[i][j] = max(match_score, delete_score, insert_score)
+
+        # using the cumulative score filled matrix, traceback to see which optimal path to take to align the sequences
+        # this method only gives 1 path, but multiple paths are possible if they yield the same score, this extension
+        #   can be added on later
+        i = m
+        j = n
+        while i > 0 and j > 0:
+            diagonal_score = score_matrix[i - 1, j - 1]
+            up_score = score_matrix[i - 1, j]
+            left_score = score_matrix[i, j - 1]
+
+            direction = np.argmax([diagonal_score, up_score, left_score])
+            if direction == 0:
+                result.sequence_1.append(sequence_1[i-1])
+                result.sequence_2.append(sequence_2[j-1])
+                result.scores.append(diagonal_score)
+                i -= 1
+                j -= 1
+            elif direction == 1:
+                result.sequence_1.append(sequence_1[i - 1])
+                result.sequence_2.append(result.GAP_SYMBOL)
+                result.scores.append(up_score)
+                i -= 1
+            elif direction == 2:
+                result.sequence_1.append(result.GAP_SYMBOL)
+                result.sequence_2.append(sequence_2[j - 1])
+                result.scores.append(left_score)
+                j -= 1
+
+        while j > 0:
+            j -= 1
+        while i > 0:
+            i -= 1
+            result.scores.append(0)
+
+        # reverse all the sequences, because they are currently reversed due to tracing backwards
+        result.sequence_1 = result.sequence_1[::-1]
+        result.sequence_2 = result.sequence_2[::-1]
+        result.scores = result.scores[::-1]
+        return result
 
     def _process_alignments(self,
                             needleman_wunsch_result: NeedlemanWunschResult,
@@ -116,9 +182,9 @@ class NeedlemanWunschAligner:
 
             tokenized_sequence_1 = [tokenize_text(chunk.text) for chunk in sequence_1]
             tokenized_sequence_2 = [tokenize_text(turn.text) for turn in sequence_2]
-            scoring_matrix = self.build_scoring_matrx(tokenized_sequence_1,
-                                                      tokenized_sequence_2,
-                                                      calculate_scaled_f1_turn_distribution)
+            scoring_matrix = self.build_scoring_matrix(tokenized_sequence_1,
+                                                       tokenized_sequence_2,
+                                                       calculate_scaled_f1_turn_distribution)
         else:
             raise ValueError('Unexpected scoring method {}', scoring_method)
 
