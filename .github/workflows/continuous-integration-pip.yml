@@ -1,6 +1,6 @@
 # credit to mwouts for this great tutorial!
 name: CI (pip)
-on: [push]
+on: [push, pull_request]
 
 jobs:
   build:
