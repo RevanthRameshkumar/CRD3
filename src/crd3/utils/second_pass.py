@@ -20,7 +20,7 @@ def get_transcript_url(episode_name: str) -> str:
     """
     returns the url for the transcript page based on episode name
     Args:
-        episode_name: the episode's name
+        episode_name: the episode's name (hopefully as represented in the Wiki)
 
     Returns: the url for the transcript page based on episode name
     """
